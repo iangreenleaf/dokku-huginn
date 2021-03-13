@@ -8,7 +8,7 @@ This app has been deployed from the git repo.
 6. dokku postgres:link huginn huginn
 7. dokku config:set huginn DATABASE_ADAPTER=postgresql
 8. dokku config:set huginn PROCFILE_PATH=deployment/heroku/Procfile.heroku
-9. dokku config:set huginn APP_SECRET_TOKEN=dfefb1a9cd420b608d799cb4
+9. dokku config:set huginn APP_SECRET_TOKEN=my-app-secret
 10. dokku config:set huginn RAILS_ENV=production
 11. dokku config:set huginn RAILS_SERVE_STATIC_FILES=true
 12. git push dokku master
